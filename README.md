@@ -1,7 +1,7 @@
 # Nano
 Nano is an URL shortener written in python
 
-## Requirements
+### Requirements
   - Falcon
   - Gunicorn
  
