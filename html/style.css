@@ -1,0 +1,90 @@
+.top
+{
+    height: 30px;
+    width: 140px;
+    border-bottom: 2px solid #ed3833;
+    margin: auto;
+    margin-top:200px;
+    padding-bottom: 20px;
+
+}
+
+.top h1
+{
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+.top h4
+{
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -5px;
+    
+}
+
+
+.searchBox
+{
+
+    width: 80%;
+    height: 40px;
+    border: 2px solid #ed3833;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+    float: left;
+    margin-left: 8%;
+    
+}
+.shortenBtn
+{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background-color: #ed3833;
+
+    color: #eeeeee;
+
+    background-image: url("img/compress.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+
+    
+}
+.copyBtn
+{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background-color: #ed3833;
+
+    color: #eeeeee;
+
+    background-image: url("img/copy.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+.searchDIV
+{
+    height:50px;
+    margin-top: 50px;  
+}
+.bottom
+{
+    height: 35px;
+    width: 300px;
+    border: none;
+    background: green;
+    margin: auto;
+    text-align: center;
+
+}

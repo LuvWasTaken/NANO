@@ -1,0 +1,67 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  <script>
+
+      var shortenAndCopyToggle = true;
+      function requestShortURL()
+      {
+          var xhttp = new XMLHttpRequest();
+
+          xhttp.open("POST", "/nano/create", true);
+          xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+          
+          xhttp.onreadystatechange = function() {
+              if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+                  document.getElementById("URL").value  = this.responseText;
+              }
+          };
+          
+          xhttp.send("long_URL=" + document.getElementById("URL").value);
+
+      }
+
+      function shorten()
+      {
+          if(shortenAndCopyToggle)
+          {
+            var element = document.getElementById("inputBtn1");
+            element.classList.add("copyBtn");
+            requestShortURL();
+              
+
+          }
+          else
+          {
+            var element = document.getElementById("inputBtn1");
+            element.classList.remove("copyBtn");
+            element.classList.add("shortenBtn");
+            copyToClipboard();
+
+          }
+          
+          shortenAndCopyToggle = !shortenAndCopyToggle;
+      }
+      function copyToClipboard()
+      {
+          var element = document.getElementById("URL");
+          element.select();
+          document.execCommand("copy");
+          element.value = "";
+          alert("URL copied to clipboard");
+
+      }
+  
+  </script>
+</head>
+
+<body>
+  <div class = "top">
+      <h1>NANO</h1>
+      <h4>Sharing made easy!</h4> 
+  </div>
+  <div class = "searchDIV">
+      <input type="text" id = "URL" class = "searchBox" name="search" placeholder="Enter an URL to shorten...">
+      <button id = "inputBtn1" class="shortenBtn" onclick="shorten()"></button>
+  </div>
+</body>

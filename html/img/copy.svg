@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82.531" height="84.592" viewBox="0 0 82.531 84.592">
+  <g id="Group_4" data-name="Group 4" transform="translate(-8.086 -7.289)">
+    <g id="Group_3" data-name="Group 3" transform="translate(18 10.737)">
+      <g id="Group_1" data-name="Group 1" transform="translate(18.701 12.933)">
+        <path id="Path_1" data-name="Path 1" d="M8.7,26.933V93.644H61.117V41.034L48.1,26.933Z" transform="translate(-8.701 -26.933)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="Path_2" data-name="Path 2" d="M55.938,26.933V42.678H72.3" transform="translate(-19.682 -26.933)" fill="none" stroke="#fffcfc" stroke-width="3"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" x2="27.02" transform="translate(31.5 39.607)" fill="none" stroke="#fff" stroke-width="3"/>
+      <line id="Line_2" data-name="Line 2" x2="27.02" transform="translate(31.5 45.715)" fill="none" stroke="#fff" stroke-width="3"/>
+      <line id="Line_3" data-name="Line 3" x2="27.02" transform="translate(31.5 51.823)" fill="none" stroke="#fff" stroke-width="3"/>
+      <line id="Line_4" data-name="Line 4" x2="27.02" transform="translate(31.5 57.932)" fill="none" stroke="#fff" stroke-width="3"/>
+    </g>
+    <path id="Path_3" data-name="Path 3" d="M26.7,97.166H-.414V22.789H38.535l10.98,14.3" transform="translate(10 -14)" fill="none" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>
